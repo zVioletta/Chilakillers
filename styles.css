@@ -7,10 +7,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .main-content {
     display: flex;
     flex-grow: 1;
 }
+
 .header {
     background-color: purple;
     color: white;
@@ -20,19 +22,23 @@ body {
     align-items: center;
     width: 100%;
 }
-.header > div {
+
+.header>div {
     font-size: 24px;
     font-weight: bold;
 }
-.header > input {
+
+.header>input {
     padding: 10px;
     font-size: 16px;
 }
-.header > nav {
+
+.header>nav {
     display: flex;
     gap: 10px;
 }
-.header > nav > a {
+
+.header>nav>a {
     color: white;
     text-decoration: none;
 }
@@ -53,4 +59,427 @@ body {
     width: 200px;
     border-left: 1px solid gray;
     padding: 20px;
+}
+
+.page-header {
+    margin-bottom: 20px;
+}
+
+body.skin-fandomdesktop .page-content {
+    overflow-x: visible;
+}
+
+.page-content {
+    overflow-x: hidden;
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+time,
+tt,
+u,
+ul,
+var,
+video {
+    border: 0;
+    font: normal normal normal 100% inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: initial;
+}
+
+<style>* {
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+.page__main {
+    font-family: 'Inter', Rubik, Arial, sans-serif;
+    border: 1px solid rgba(var(--theme-border-color--rgb), .65);
+    border-top: unset;
+    background-color: rgba(var(--theme-page-background-color--rgb), 0.95);
+    border-radius: 0 !important;
+    padding: 15px 15px 15px 35px !important;
+}
+
+.page {
+    color: var(--theme-page-text-color);
+    margin-top: 12px;
+    position: relative;
+}
+
+.page {
+    --fixed-table-header-offset: 0;
+}
+
+:root .theme-fandomdesktop-dark {
+    --theme-border-color: #4C5067;
+    --theme-page-background-color--secondary: #20242C;
+}
+
+body.skin-fandomdesktop,
+button,
+input,
+textarea {
+    font-family: rubik, helvetica, arial, sans-serif;
+}
+
+body {
+    background-color: var(--theme-body-background-color);
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+body {
+    line-height: 1;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) body {
+    --theme-body-background-image: var(--theme-body-background-image-desktop);
+}
+
+:root {
+    --theme-body-dynamic-color-1: #fff;
+    --theme-body-dynamic-color-1--rgb: 255, 255, 255;
+    --theme-body-dynamic-color-2: #e6e6e6;
+    --theme-body-dynamic-color-2--rgb: 230, 230, 230;
+    --theme-page-dynamic-color-1: #fff;
+    --theme-page-dynamic-color-1--rgb: 255, 255, 255;
+    --theme-page-dynamic-color-1--inverted: #000;
+    --theme-page-dynamic-color-1--inverted--rgb: 0, 0, 0;
+    --theme-page-dynamic-color-2: #e6e6e6;
+    --theme-page-dynamic-color-2--rgb: 230, 230, 230;
+    --theme-sticky-nav-dynamic-color-1: #fff;
+    --theme-sticky-nav-dynamic-color-1--rgb: 255, 255, 255;
+    --theme-sticky-nav-dynamic-color-2: #e6e6e6;
+    --theme-sticky-nav-dynamic-color-2--rgb: 230, 230, 230;
+    --theme-link-dynamic-color-1: #000;
+    --theme-link-dynamic-color-1--rgb: 0, 0, 0;
+    --theme-link-dynamic-color-2: #3a3a3a;
+    --theme-link-dynamic-color-2--rgb: 58, 58, 58;
+    --theme-accent-dynamic-color-1: #000;
+    --theme-accent-dynamic-color-1--rgb: 0, 0, 0;
+    --theme-accent-dynamic-color-2: #3a3a3a;
+    --theme-accent-dynamic-color-2--rgb: 58, 58, 58;
+    --theme-body-background-color: #101222;
+    --theme-body-background-color--rgb: 16, 18, 34;
+    --theme-body-background-image: none;
+    --theme-body-background-image-full: url(https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/0/08/Site-background-dark/revision/latest?cb=20231030013359&path-prefix=es);
+    --theme-body-background-image-desktop: url(https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/0/08/Site-background-dark/revision/latest/scale-to-width-down/1280?cb=20231030013359&path-prefix=es);
+    --theme-body-background-image-large-desktop: url(https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/0/08/Site-background-dark/revision/latest/scale-to-width-down/1500?cb=20231030013359&path-prefix=es);
+    --theme-body-background-image-mobile: url(https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/0/08/Site-background-dark/revision/latest/scale-to-width-down/600?cb=20231030013359&path-prefix=es);
+    --theme-body-background-image-mobile-2x: url(https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/0/08/Site-background-dark/revision/latest/scale-to-width-down/1200?cb=20231030013359&path-prefix=es);
+    --theme-body-background-image-tablets: url(https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/0/08/Site-background-dark/revision/latest/scale-to-width-down/1024?cb=20231030013359&path-prefix=es);
+    --theme-body-background-image-tablets-2x: url(https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/0/08/Site-background-dark/revision/latest/scale-to-width-down/2048?cb=20231030013359&path-prefix=es);
+    --theme-body-text-color: #fff;
+    --theme-body-text-color--rgb: 255, 255, 255;
+    --theme-body-text-color--hover: #cccccc;
+    --theme-sticky-nav-background-color: #1d1d1d;
+    --theme-sticky-nav-background-color--rgb: 29, 29, 29;
+    --theme-sticky-nav-text-color: #fff;
+    --theme-sticky-nav-text-color--hover: #cccccc;
+    --theme-page-background-color: #121212;
+    --theme-page-background-color--rgb: 18, 18, 18;
+    --theme-page-background-color--secondary: #363636;
+    --theme-page-background-color--secondary--rgb: 54, 54, 54;
+    --theme-page-text-color: #e6e6e6;
+    --theme-page-text-color--rgb: 230, 230, 230;
+    --theme-page-text-color--hover: #b3b3b3;
+    --theme-page-text-mix-color: #7c7c7c;
+    --theme-page-text-mix-color-95: #1d1d1d;
+    --theme-page-accent-mix-color: #414a86;
+    --theme-page-headings-font: 'Rubik';
+    Show All Properties (31 more)
+}
+
+:root {
+    --theme-primary-color-wa: #3d00a0;
+    --theme-secondary-color-wa: #350085;
+    --theme-primary-color-cb: #db1616;
+    --theme-secondary-color-cb: #b51212;
+    --theme-primary-color-gf: #f0aa32;
+    --theme-secondary-color-gf: #cc9029;
+    --theme-primary-color-ppt: #262626;
+    --theme-secondary-color-ppt: #3d3d3d;
+    --theme-primary-color-ao: #a5502c;
+    --theme-secondary-color-ao: #783a1f;
+    --theme-primary-color-tm: #2b5ad1;
+    --theme-secondary-color-tm: #2856c9;
+    --theme-primary-color-as: #100021;
+    --theme-secondary-color-as: #100021;
+    --theme-primary-color-ap: #728f40;
+    --theme-secondary-color-ap: #617a35;
+    --theme-primary-color-an: #6b0000;
+    --theme-secondary-color-an: #5c0000;
+    --theme-primary-color-fm: #4b2552;
+    --theme-secondary-color-fm: #6b3175;
+    --theme-primary-color-sa: #a65437;
+    --theme-secondary-color-sa: #c26340;
+    --theme-primary-color-ar: #8f2c2c;
+    --theme-secondary-color-ar: #8f2c2c;
+}
+
+:root {
+    --fandom-global-nav-background-color: #1e0c1b;
+    --fandom-global-nav-text-color: #fff;
+    --fandom-global-nav-link-color: #ffc500;
+    --fandom-global-nav-link-color--hover: #997600;
+    --fandom-global-nav-icon-color: #f5f3f5;
+    --fandom-global-nav-icon-background-color: #59535880;
+    --fandom-global-nav-icon-background-color--hover: #595358;
+    --fandom-global-nav-icon-background-color--active: #595358;
+    --fandom-global-nav-icon-border-color: #f5f3f5;
+    --fandom-global-nav-icon-border-color--hover: #ffffff80;
+    --fandom-global-nav-icon-border-color--active: #f5f3f5;
+    --fandom-global-nav-bottom-icon-color: #f5f3f5;
+    --fandom-global-nav-counter-background-color: #f5f3f5;
+    --fandom-global-nav-counter-label-color: #520044;
+    --fandom-global-nav-mobile-background-color: var(--fandom-global-nav-background-color);
+    --fandom-global-nav-mobile-logo: url(/resources-ucp/mw139/dist/svg/wds-brand-fandom-logo-light.svg?21f57);
+    --fandom-global-nav-mobile-logo-background: #1e0c1b;
+    --fandom-global-nav-mobile-community-sticky-bar-background-color: var(--theme-sticky-nav-background-color);
+    --fandom-global-nav-mobile-community-sticky-bar-color: var(--theme-sticky-nav-text-color);
+    --fandom-global-nav-mobile-community-sticky-bar-color--hover: var(--theme-sticky-nav-text-color--hover);
+    --fandom-global-nav-mobile-community-bar-background-color: var(--theme-sticky-nav-background-color);
+    --fandom-global-nav-mobile-community-bar-color: var(--theme-sticky-nav-text-color);
+    --fandom-global-nav-mobile-community-bar-color--hover: var(--theme-sticky-nav-text-color--hover);
+    --fandom-global-nav-mobile-community-bottom-border-color: var(--theme-border-color);
+    --fandom-global-nav-search-active-link-background-color: #595358;
+    --fandom-global-nav-search-active-link-border-color: #fff;
+    --fandom-global-nav-mobile-logo-separator-color: #0000;
+    --fandom-global-nav-separator-color: #595358;
+    --fandom-global-nav-gp-legacy-logo: url(/resources-ucp/mw139/dist/svg/wds-brand-gamepedia-badge-orange.svg?93bf6);
+    --fandom-global-nav-border-top-width: 0;
+    --fandom-global-nav-overflow-shadow-color: #f5f3f54d;
+}
+
+:root {
+    --desktop-global-navigation-width: 66px;
+}
+
+:root {
+    --fandom-primary-color: #1e0c1b;
+    --fandom-secondary-color: #291927;
+    --fandom-secondary-color--hover: #3e303d;
+    --fandom-secondary-reverse-color: #f5f3f5;
+    --fandom-text-color: #f5f3f5;
+    --fandom-text-color--secondary: #d6d0d5;
+    --fandom-text-color--rgb: 245, 243, 245;
+    --fandom-text-color--hover: #c7bbc7;
+    --fandom-heading-color: #f9edd8;
+    --fandom-heading-color--hover: #ebc480;
+    --fandom-link-color: #ffc500;
+    --fandom-link-color--hover: #997600;
+    --fandom-link-color--rgb: 255, 197, 0;
+    --fandom-link-color--fadeout: #ffc5004d;
+    --fandom-accent-color: #ffc500;
+    --fandom-accent-color--secondary: #fa005a;
+    --fandom-accent-color--hover: #997600;
+    --fandom-accent-label-color: #291927;
+    --fandom-border-color: #595358;
+    --fandom-border-color--secondary: #d6d0d5;
+    --fandom-image-empty-state-color: #520044;
+    --fandom-secondary-button-color: #f5f3f5;
+    --fandom-secondary-button-color--hover: #c7bbc7;
+    --fandom-dropdown-background-color: #291927;
+    --fandom-notifications-background-color: #1e0c1b;
+    --fandom-notifications-read-card-background-color: #1e0c1b;
+    --fandom-notifications-unread-card-background-color: #5953584d;
+    --fandom-notifications-footer-text-color: #d6d0d5;
+    --fandom-banner-notification-background-color: #1e0c1b;
+    --fandom-banner-notifications-close-icon: #f5f3f5;
+    --fandom-mobile-body-gradient: linear-gradient(180deg, #291927, #291927 55px, #1e0c1b 100vh, #1e0c1b);
+    --fandommobile-fanhub-button-background: #f9edd8;
+    --fandommobile-fanhub-button-background--hover: #ebc480;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+@media only screen and (max-width: 1279px) .resizable-container {
+    max-width: none;
+    width: 95%;
+}
+
+.resizable-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 48px;
+    max-width: 1236px;
+    position: relative;
+    transition: width .3s, max-width .3s;
+    width: 85%;
+}
+
+html:not(.ve-active) .page.has-right-rail {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) min-content;
+    grid-template-rows: max-content;
+}
+
+.page {
+    border-top: 7px solid var(--theme-accent-color);
+    border-radius: 4px;
+}
+
+.page {
+    color: var(--theme-page-text-color);
+    margin-top: 12px;
+    position: relative;
+}
+
+.page {
+    --fixed-table-header-offset: 0;
+}
+
+html:not(.ve-active) .page.has-right-rail .page__main {
+    border-radius: 3px 0 0 3px;
+}
+
+.has-right-rail .page__main {
+    border-right: none !important;
+}
+
+.page .page__main {
+    height: 100%;
+}
+
+.page__main {
+    font-family: 'Inter', Rubik, Arial, sans-serif;
+    border: 1px solid rgba(var(--theme-border-color--rgb), .65);
+    border-top: unset;
+    background-color: rgba(var(--theme-page-background-color--rgb), 0.95);
+    border-radius: 0 !important;
+    padding: 15px 15px 15px 35px !important;
+}
+
+.page__main {
+    background-color: var(--theme-page-background-color);
+    border-radius: 3px;
+    min-height: 480px;
+    padding: 24px 36px;
+    position: relative;
+}
+
+html:not(.ve-activated) .page.has-right-rail .page__right-rail {
+    width: 318px;
+}
+
+html:not(.ve-active) .page.has-right-rail .page__right-rail {
+    transition: width .3s;
+    width: 336px;
+}
+
+.page__right-rail {
+    background-color: var(--theme-page-background-color);
+    border-radius: 0;
+    padding-left: 1.7em !important;
+    border: 1px solid rgba(var(--theme-border-color--rgb), .6);
+}
+
+.page__right-rail {
+    --right-rail-background-color: var(--theme-page-background-color--secondary);
+    background-color: var(--right-rail-background-color);
+    border-radius: 0 3px 3px 0;
+    min-height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
